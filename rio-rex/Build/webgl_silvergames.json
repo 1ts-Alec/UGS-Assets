@@ -1,8 +1,8 @@
 {
   "companyName": "gametornado",
   "productName": "Rio Rex",
-  "dataUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/5fb5c5deb33b8b3c6d189c5333c8c74d241391f1/rio-rex/Build/webgl_silvergames.data",
-  "asmCodeUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/5fb5c5deb33b8b3c6d189c5333c8c74d241391f1/rio-rex/Build/webgl_silvergames.asm.code.unityweb",
+  "dataUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/813e7e3b85e64389e7adae5c2d6db023a525b38d/rio-rex/Build/webgl_silvergames.data",
+  "asmCodeUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/813e7e3b85e64389e7adae5c2d6db023a525b38d/rio-rex/Build/webgl_silvergames.asm.code.unityweb",
   "asmMemoryUrl": "webgl_silvergames.asm.memory.unityweb",
   "asmFrameworkUrl": "webgl_silvergames.asm.framework.unityweb",
   "TOTAL_MEMORY": 268435456,
