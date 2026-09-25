@@ -53,8 +53,8 @@ window.unityMergeComplete = Promise.all([
     mergeFiles(getParts("Build/WebGL.data", 1, 4)),
     mergeFiles(getParts("Build/WebGL.wasm", 1, 2))
 ]).then(([dataBuffer, wasmBuffer]) => {
-    const dataUrl = URL.createObjectURL(new Blob([dataBuffer]));
-    const wasmUrl = URL.createObjectURL(new Blob([wasmBuffer]));
+    const dataUrl = URL.createObjectURL(new Blob([dataBuffer], { type: 'application/octet-stream' }));
+    const wasmUrl = URL.createObjectURL(new Blob([wasmBuffer], { type: 'application/wasm' }));
     
     window.fetch = async function (url, ...args) {
         if (url.endsWith("Build/WebGL.data")) {
