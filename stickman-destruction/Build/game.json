@@ -2,14 +2,21 @@
   "companyName": "FreezeNova",
   "productName": "Stickman Destruction",
   "productVersion": "1.0",
-  "dataUrl": "game.data",
-  "wasmCodeUrl": "game.wasm.code",
+  "dataUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/5fb5c5deb33b8b3c6d189c5333c8c74d241391f1/stickman-destruction/Build/game.data",
+  "wasmCodeUrl": "https://raw.githubusercontent.com/1ts-Alec/UGS-Assets/5fb5c5deb33b8b3c6d189c5333c8c74d241391f1/stickman-destruction/Build/game.wasm.code",
   "wasmFrameworkUrl": "game.wasm.framework.js",
-  "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
-  "webglContextAttributes": {"preserveDrawingBuffer": false},
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
   "splashScreenStyle": "Dark",
   "backgroundColor": "#1F1F1F",
-  "cacheControl": {"default": "must-revalidate"},
+  "cacheControl": {
+    "default": "must-revalidate"
+  },
   "developmentBuild": false,
   "multithreading": false,
   "unityVersion": "2019.3.15f1"
