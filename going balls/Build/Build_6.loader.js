@@ -242,7 +242,7 @@ function createUnityInstance(e, r, t) {
       "NT 6.3": "8.1",
       "NT 10.0": "10"
     };
-    o = f[o] || o, a = document.createElement("canvas"), a && (gl = a.getContext("webgl2"), glVersion = gl ? 2 : 0, gl || (gl = a && a.getContext("webgl")) && (glVersion = 1), gl && (s = gl.getExtension("WEBGL_debug_renderer_info") && gl.getParameter(37446) || gl.getParameter(7937))), (n.includes("iPhoneOS") || n.includes("iPadOS")) && o.includes("15") && (glVersion = 1);
+    o = f[o] || o, a = document.createElement("canvas"), a && (gl = a.getContext("webgl2"), glVersion = gl ? 2 : 0, gl || (gl = a && a.getContext("webgl")) && (glVersion = 1), gl && (s = gl.getExtension("WEBGL_debug_renderer_info") && gl.getParameter(37446) || gl.getParameter(7937))), ((n||"").includes("iPhoneOS") || (n||"").includes("iPadOS")) && (o||"").includes("15") && (glVersion = 1);
     var h = "undefined" != typeof SharedArrayBuffer,
       p = "object" == typeof WebAssembly && "function" == typeof WebAssembly.compile;
     return {
