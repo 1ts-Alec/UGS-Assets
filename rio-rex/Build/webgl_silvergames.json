@@ -1,7 +1,7 @@
 {
   "companyName": "gametornado",
   "productName": "Rio Rex",
-  "dataUrl": "webgl_silvergames.data.unityweb",
+  "dataUrl": "webgl_silvergames.data",
   "asmCodeUrl": "webgl_silvergames.asm.code.unityweb",
   "asmMemoryUrl": "webgl_silvergames.asm.memory.unityweb",
   "asmFrameworkUrl": "webgl_silvergames.asm.framework.unityweb",
