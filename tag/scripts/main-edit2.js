@@ -400,9 +400,9 @@ window.RuntimeInterface = class a {
                 type: "application/javascript"
             }),
             new Worker(URL.createObjectURL(b),d);
-        b = new URL(b,"https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/scripts/");
+        b = new URL(b,"https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/scripts/");
         if (location.origin !== b.origin) {
-            b = await fetch("https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/scripts/dispatchworker.js");
+            b = await fetch("https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/scripts/dispatchworker.js");
             if (!b.ok)
                 throw Error("failed to fetch worker script");
             b = await b.blob();
@@ -1753,7 +1753,7 @@ self.JobSchedulerDOM = class {
 window.C3_IsSupported && (window.c3_runtimeInterface = new self.RuntimeInterface({
     useWorker: !1,
     workerMainUrl: "workermain.js",
-    engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/scripts/c3runtime.js"],
+    engineScripts: ["https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/scripts/c3runtime.js"],
     projectScripts: [],
     mainProjectScript: "",
     scriptFolder: "scripts/",

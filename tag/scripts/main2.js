@@ -467,7 +467,7 @@
       }
      if (opts.runtimeBaseUrl) this._runtimeBaseUrl = opts.runtimeBaseUrl;
 else {
-    this._runtimeBaseUrl = "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/";
+    this._runtimeBaseUrl = "https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/";
 }
       if (opts.workerScripts) this._workerScriptURLs = opts.workerScripts;
       const messageChannel = new MessageChannel;
@@ -506,7 +506,7 @@ async CreateWorker(b, c, d) {
             type: "application/javascript"
         }),
         new Worker(URL.createObjectURL(b), d);
-    b = new URL(b, "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/scripts/");
+    b = new URL(b, "https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/scripts/");
     if (location.origin !== b.origin) {
         const response = await fetch(b);
         if (!response.ok) throw new Error("failed to fetch worker script");
@@ -2007,8 +2007,8 @@ async CreateWorker(b, c, d) {
 window["c3_runtimeInterface"] = new self.RuntimeInterface({
     useWorker: !1,
     workerMainUrl: "workermain.js",
-    runtimeBaseUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/",
-    engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tag/scripts/c3runtime.js"],
+    runtimeBaseUrl: "https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/",
+    engineScripts: ["https://raw.esm.sh/gh/1ts-Alec/UGS-Assets@734488f3e2a965c6a87fce24eac54623757f017f/tag/scripts/c3runtime.js"],
     projectScripts: [],
     mainProjectScript: "",
     scriptFolder: "scripts/",
